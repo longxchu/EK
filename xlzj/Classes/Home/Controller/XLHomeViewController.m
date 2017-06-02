@@ -1066,7 +1066,7 @@ typedef NS_ENUM(NSInteger, TableViewTag)
         
         UIImageView *valRHImageV = [[UIImageView alloc]init];
         valRHImageV.image = [UIImage imageNamed:@"center_humidity"];
-        valRHImageV.frame = CGRectMake(CGRectGetMaxX(valTempLabel.frame) + 30.0, CGRectGetMaxY(strDevNameLabel.frame) + 15.0, 11.7, 19.5);//18*30
+        valRHImageV.frame = CGRectMake(CGRectGetMaxX(valTempLabel.frame) + 15.0, CGRectGetMaxY(strDevNameLabel.frame) + 15.0, 11.7, 19.5);//18*30
         [cell.contentView addSubview:valRHImageV];
         
         UILabel *valRHLabel = [[UILabel alloc]init];
